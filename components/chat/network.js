@@ -1,29 +1,3 @@
-// const express = require('express');
-// const router = express.Router();
-// const response = require('../../network/response');
-// const controller = require('./controller');
-//
-// router.get('/:userid', function (req, res) {
-//   controller.getChats(req.params.userid)
-//     .then(function (data) {
-//       response.success(req, res, data, 200);
-//     })
-//     .catch(function (e) {
-//       response.error(req, res, 'Invalid data', 500, e);
-//     })
-// })
-//
-// router.post('/', function (req, res) {
-//   controller.addChat(req.body.users)
-//     .then(function (data) {
-//       response.success(req, res, data, 200);
-//     })
-//     .catch(function (e) {
-//       response.error(req, res, 'Invalid data', 500 ,e);
-//     })
-// })
-//
-// module.exports = router;
 const express = require('express');
 const response = require('../../network/response');
 const controller = require('./controller');
